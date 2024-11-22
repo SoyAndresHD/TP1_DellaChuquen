@@ -3,100 +3,160 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nelson Chuquen - Lucas Della Maggiore - DMT2BP - Turno Tarde - 2024</title>
+    <title>Lucas Della Maggiore - Nelson Chuquen - DMT2BP - Tarde - 2024</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="/images/logo.jpg">
 </head>
 <body>
-
-    <header class="main-banner">
-        <div class="overlay">
-            <div class="banner-text">
-                <h1>Diseño y Creatividad Sin Límites</h1>
-                <p>Impulsamos tu marca con soluciones innovadoras</p>
-                <a href="#contacto" class="cta-button">Contactános</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Dos M</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about-us">Quiénes Somos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
             </div>
+        </div>
+    </nav>    
+    
+
+
+    <header id="inicio" class="main-banner">
+        <div class="container text-center">
+            <h1 id="welcome">Bienvenido a Estudio Dos M</h1>
+            <p class="lead">Diseño multimedial a tu alcance</p>
         </div>
     </header>
 
-    
-    <section id="services" class="services-section">
+    <section id="services" class="services-section py-5">
         <div class="container">
             <h2>Nuestros Servicios</h2>
-            <div class="service-cards">
-                <div class="card">
-                    <img src="images/diseñador.jpg" alt="Diseño Gráfico">
-                    <h3>Diseño Gráfico</h3>
-                    <p>Logos, tramas, afiches publicitarios y mucho más, hechos a pedido y preferencia del cliente.</p>
+            <div class="row g-3">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100">
+                        <img src="images/diseñador.jpg" class="card-img-top" alt="Diseño Gráfico">
+                        <div class="card-body">
+                            <h3 class="card-title">Diseño Gráfico</h3>
+                            <p class="card-text">Logos, tramas, afiches publicitarios y mucho más, hechos a pedido y preferencia del cliente.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="card">
-                    <img src="images/desarrollo_web.jpg" alt="Desarrollo Web">
-                    <h3>Desarrollo Web</h3>
-                    <p>Páginas web para cualquier uso que requieras, desde emprendimientos hasta grandes proyectos corporativos.</p>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100">
+                        <img src="images/desarrollo_web.jpg" class="card-img-top" alt="Desarrollo Web">
+                        <div class="card-body">
+                            <h3 class="card-title">Desarrollo Web</h3>
+                            <p class="card-text">Páginas web para cualquier uso que requieras, desde emprendimientos hasta grandes proyectos corporativos.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="card">
-                    <img src="images/fotografia.jpg" alt="Fotografía">
-                    <h3>Fotografía</h3>
-                    <p>Fotografías tomadas por profesionales con detalles impecables. Normalmente usados para retratos.</p>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100">
+                        <img src="images/fotografia.jpg" class="card-img-top" alt="Fotografía">
+                        <div class="card-body">
+                            <h3 class="card-title">Fotografía</h3>
+                            <p class="card-text">Fotografías tomadas por profesionales con detalles impecables. Normalmente usados para retratos.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="card">
-                    <img src="images/desarrollo_de_videojuegos.jpg" alt="Desarrollo de Videojuegos">
-                    <h3>Desarrollo de Videojuegos</h3>
-                    <p>Colaboramos con grandes desarrolladores de la industria, vos podés ser el siguiente en hacerlo.</p>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100">
+                        <img src="images/desarrollo_de_videojuegos.jpg" class="card-img-top" alt="Desarrollo de Videojuegos">
+                        <div class="card-body">
+                            <h3 class="card-title">Desarrollo de Videojuegos</h3>
+                            <p class="card-text">Colaboramos con grandes desarrolladores de la industria, vos podés ser el siguiente en hacerlo.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-
-    <section id="about-us" class="about-us-section">
+    <section id="about-us" class="about-us-section py-5">
         <div class="container">
             <h2>Quiénes Somos</h2>
-            <div class="about-content">
-                <img src="images/oficina.jpg" alt="Imagen de la Agencia">
-                <div class="text-content">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <img src="images/oficina.jpg" alt="Imagen de la Agencia" class="img-fluid rounded">
+                </div>
+                <div class="col-lg-6">
                     <p>Estudio Dos M es una agencia de diseño multimedial dedicada a una gran variedad de propósitos.</p>
-                    <p>Desde la creación de un logo para una empresa en desarrollo, hasta el estilo artístico de un videojuego y mucho más el propósito de nuestra agencia es brindar asistencia artística, práctica y conveniente a quien sea que lo necesite.</p>
-                    <p>Otra razón por la cual nuestros servicios son altamente demandados es porque retenemos la calidad de otras agencias con objetivos similares pero mantenemos un presupuesto relativamente barato para nuestros clientes en el proceso.</p>
-                    <p>Contamos con más de treinta mil especialistas alrededor de todo el mundo y estos mismos abarcan múltiples rubros dependiendo de su sector. Algunos cuentan con experiencia cinematográfica, otros con fotografía, otros con desarrollo de juegos, entre otros lo cual asegura que sin importar el tipo de asistencia que requieras es muy probable que tengamos a alguien que pueda ayudar.</p>
-                    <p>Los países en los que operamos también son abundantes. Contamos con sedes en casi todos los países de América, Europa y Oceanía, con una gran cantidad en Asia y África también. Incluso en el caso de no contar con una sede en tu país, se puede hacer uso de nuestros servicios de teletrabajo con un permiso legal.</p>
-                    <p>Si tiene alguna otra duda sobre cualquier rasgo de nuestra agencia la cual no haya sido respondida aquí, puede contactarse con nosotros con la información adjuntada al pie de esta página, que disfrute se visita.</p>
-                </div>
+                    <p>Desde la creación de un logo para una empresa en desarrollo, hasta el estilo artístico de un videojuego y mucho más...</p>
+                    <p>Mantenemos un presupuesto accesible para nuestros clientes, ofreciendo siempre la mejor calidad.</p>
+                    <p>Si tiene alguna duda, contáctenos al pie de esta página.</p>
                 </div>
             </div>
         </div>
     </section>
 
-
-    <section id="reviews" class="reviews-section">
-        <div class="container">
-            <h2>Reseñas de Clientes</h2>
-            <div class="review-cards">
-                <div class="review-card">
-                    <img src="images/hombre.jpg" alt="Cliente 1">
-                    <p>"La creatividad que presencié trabajando con ellos es realmente increíble. ¡Los recomiendo altamente!"</p>
-                    <p><strong>Juan Pérez, CEO de PepsiCo.</strong></p>
-                </div>
-                <div class="review-card">
-                    <img src="images/mujer.jpg" alt="Cliente 2">
-                    <p>"Gracias a ellos, nuestra marca desarrolló su nueva identidad artística."</p>
-                    <p><strong>María López, Fundadora de Estereo Color.</strong></p>
-                </div>
-
-            </div>
+    <section id="video" class="video-section">
+        <div class="container text-center">
+            <h2>Mira nuestro video</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/example" frameborder="0" allowfullscreen></iframe>
         </div>
     </section>
 
-
-    <footer id="contacto">
+    <footer id="contacto" class="bg-dark text-light py-5">
         <div class="container">
-            <p>&copy; 2024 Lucas Della Maggiore - Nelson Chuquen | Materia: Maquetado y Desarrollo Web | Comisión DMT2BP | Turno Tarde</p>
-            <div class="social-icons">
-                <a href="https://www.facebook.com" target="_blank" id="facebook"></a>
-                <a href="https://www.twitter.com" target="_blank" id="twitter"></a>
-                <a href="https://www.instagram.com" target="_blank" id="instagram"></a>
+            <h2>Contáctanos</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" id="nombre" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label for="apellido" class="form-label">Apellido</label>
+                    <input type="text" id="apellido" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" id="email" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label for="comentario" class="form-label">Comentario</label>
+                    <textarea id="comentario" class="form-control" rows="3" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+            <section id="reviews" class="reviews-section py-5">
+                <div class="container">
+                    <h2>Reseñas de Clientes</h2>
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="review-card p-3">
+                                <img src="images/hombre.jpg" alt="Cliente 1" class="rounded-circle mb-3" width="80" height="80">
+                                <p class="fst-italic">"La creatividad que presencié trabajando con ellos es increíble."</p>
+                                <p class="fw-bold">Juan Pérez, CEO de PepsiCo</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="review-card p-3">
+                                <img src="images/mujer.jpg" alt="Cliente 2" class="rounded-circle mb-3" width="80" height="80">
+                                <p class="fst-italic">"Gracias a ellos, nuestra marca desarrolló su nueva identidad artística."</p>
+                                <p class="fw-bold">María López, Fundadora de Estereo Color</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="mt-4 text-center">
+                <p>&copy; 2024 Lucas Della Maggiore - Nelson Chuquen | Materia: Maquetado y Desarrollo Web | Comisión DMT2BP | Turno Tarde</p>
+            </div>
+            <div class="social-icons mt-3">
+                <a href="https://www.facebook.com" target="_blank" class="social-icon facebook" aria-label="Facebook"></a>
+                <a href="https://www.twitter.com" target="_blank" class="social-icon twitter" aria-label="Twitter"></a>
+                <a href="https://www.instagram.com" target="_blank" class="social-icon instagram" aria-label="Instagram"></a>
             </div>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
