@@ -1,0 +1,13 @@
+Integrantes: Nelson Chuquen y Lucas Della Maggiore
+
+Comisión: DMT2BP
+
+Carrera: Diseño Multimedial
+
+Materia: Maquetado y Desarrollo Web
+
+Turno: Tarde
+
+Año: 2024
+
+URL del sitio: https://tp1-chuquen-dellamaggiore.netlify.app/
